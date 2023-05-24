@@ -10,3 +10,5 @@ clientApp.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, './dist', 'index.html'));
 });
 clientApp.listen(port, () => console.log(`client listening on port ${port}`));
+
+console.log('hello world!');
