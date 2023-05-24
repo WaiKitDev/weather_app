@@ -12,4 +12,3 @@ clientApp.get('*', (req, res) => {
 clientApp.listen(port, () => console.log(`client listening on port ${port}`));
 
 console.log('hello world!');
-console.log('more shenanigans')
